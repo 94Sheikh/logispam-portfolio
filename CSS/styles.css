@@ -1,0 +1,240 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container-fluid{
+    padding: 0 10% 0 10%;
+}
+
+p{
+    color: #1C1E53;
+}
+
+/* Navbar Section */
+
+.nav-link:hover{
+    color: blue;
+}
+
+
+/* Header Section */
+#header{
+    background: #F5FCFF;
+}
+
+.row{
+    margin-top: 50px;
+}
+
+.header-titel-content{
+    text-align: left;
+    margin-top: 65px;
+}
+
+span{
+    color: blue;
+}
+
+.title-heading{
+    color: #282938;
+    font-size: 56px;
+    line-height: 120%;
+    font-weight: 700;
+}
+
+.header-title-img{
+    width: 100%;
+}
+
+.title-btn{
+    background: #5E3BEE;
+    color: #fff;
+}
+
+/* My Skills Section */
+
+#my-skill{
+    margin-top: 50px;
+    padding: 0 10% 0 10%;
+}
+
+.skills-text{
+    text-align: left;
+}
+
+.heading-2{
+    color: #282938 ;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.skills-row{
+    align-items: center;
+}
+
+.skill-col{
+    background: #F5FCFF;
+    margin: 5px;
+    text-align: left;  
+}
+
+.skills-icon{
+    margin-top: 8px ;
+    height: 50px;
+    width: 50px;
+    
+}
+
+.skills-heading{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+/* About Section */
+#about-me{
+    margin-top: 50px;
+    padding: 0 10% 0 10%; 
+}
+.about-img{
+    width: 100%;
+}
+
+.about-content{
+    margin-top: 150px;
+    text-align: left;
+}
+
+/* Portfolio Section */
+#my-portfolio{
+    margin-top: 50px;
+    padding: 0 10% 0 10%; 
+}
+.portfolio-btn{
+   background:#E62872;
+   border-radius: 10px;
+   border: none;
+   color: #fff;
+   padding: 5px 10px;
+   
+}
+
+.portfolio-content{
+    text-align: left;
+}
+
+.portfolio-icon-btn{
+    margin-top: 15px;
+    text-align: right;
+}
+
+.card{
+    border: none;
+}
+
+.card-body{
+    text-align: left;
+}
+
+/* Testimonials Section */
+
+#testimonials{
+    background: #F5FCFF;
+    margin-top: 50px;
+    padding: 0 10% 0 10%;  
+}
+
+.testimonials-title{
+    padding-top: 25px;
+    text-align: left;
+}
+
+.testimonilas-col{
+    border: 1px solid #006B6A;
+    border-radius: 30px;
+    /* margin-left: 10px;
+    margin-bottom: 10px; */
+    text-align: left;
+}
+
+.testimonials-stars{
+    width: 150px;
+    margin: 30px 0 30px 0;
+}
+
+/* contact form */
+
+#contact-form{
+    margin-top: 50px;
+    padding: 0 10% 0 10%;  
+}
+
+.form-content{
+    margin: 50px;
+}
+
+input {
+    width: 60%;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: #5E3BEE;
+}
+
+textarea{
+    width: 60%;
+    border-radius: 5px;
+    border-color: #5E3BEE;
+}
+
+.form-btn{
+    background: #5E3BEE;
+    border-radius: 6px;
+    color: #fff;
+    width: 20%;
+}
+
+#footer{
+    background: #F5FCFF;
+    margin: 50px 0;
+    padding: 0 10% 0 10%; 
+    
+}
+
+.footer-logo{
+    width: 140px;
+}
+
+.footer-content{
+    display: inline-block;
+    margin: 10px 60px;
+}
+
+.footer-content2{
+    display: inline-block;
+    margin: 10px 100px;
+}
+
+.footer-nav{
+    color: #000000;
+    margin-left: 5px;
+
+}
+
+
+
+@media (max-width: 991px){
+    .portfolio-icon-btn{
+        text-align: left;
+    }
+}
+
+
+@media (max-width: 600px){
+    .form-btn{
+        width: 60%;
+    }
+}
